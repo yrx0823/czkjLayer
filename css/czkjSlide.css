@@ -1,0 +1,31 @@
+#czImgSlide{
+	position: relative;
+}
+#czImgSlide img{
+	width: 100%;
+}
+#czImgSlide .hd{
+	position:absolute;
+	bottom: 8px;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	text-align: center;
+}
+#czImgSlide .hd ul{
+	display: inline-block;
+	font-size: 0;
+}
+#czImgSlide .hd li{
+	width: .12rem;
+	height: .12rem;
+	border-radius: 50%;
+	background:rgba(0,0,0,.3);
+	display: inline-block;
+	overflow: hidden;
+	margin: 0 5px;
+	line-height: 20px;
+}
+#czImgSlide .hd li.on{
+	background:rgba(0,0,0,1);
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+*{box-sizing:border-box;}
+/*html{-webkit-text-size-adjust:none;}*/
+a,body,button,canvas,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,html,i,img,input,label,li,ol,p,select,span,table,tbody,td,textarea,tfoot,th,thead,tr,ul{margin:0;padding:0;}
+body{outline:0;color:#333;font-family:"Microsoft Yahei",STXihei,hei;font-size:.24rem;}
+button,input,select,textarea{outline:0;border:0 none;background:#fff;font-family:"微软雅黑";}
+button,input[type=submit],input[type=reset],input[type=button],input[type=text],textarea{border-radius:0;-webkit-appearance:none;appearance:none;-moz-appearance:none;}
+input:focus,textarea:focus{outline:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;margin:0;padding:0;}
+body,html{width:100%;height:100%;}
+h1,h2,h3,h4,h5,h6{font-weight:400;}
+a{color:#666;text-decoration:none;}
+button{cursor:pointer;}
+*{-webkit-tap-highlight-color:transparent;box-sizing:border-box;}
+ol,ul{list-style:none;}
+img{display:block;outline:0;border:0 none;}
+table{border-collapse:collapse;border-spacing:0;}
+b,em,i{display:inline-block;font-weight:400;font-style:normal;}
